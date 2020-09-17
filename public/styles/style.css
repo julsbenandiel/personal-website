@@ -228,6 +228,16 @@
   left: 0;
 }
 
+.portfolio__footer {
+  background: #2ade5a;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.portfolio__footer .footer-label {
+  color: white;
+}
+
 .font-500 {
   font-weight: 500;
 }

@@ -61,7 +61,16 @@
     box-shadow: $shadow;
     overflow: hidden;
     @include left-outline();
-    
+  }
+
+  &__footer {
+    background: $primary_color;
+    padding: 0.5rem 0;
+    text-align: center;
+
+    .footer-label {
+      color: white;
+    }
   }
 
 }
