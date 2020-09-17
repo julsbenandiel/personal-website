@@ -1,0 +1,52 @@
+@import './variables';
+
+.portfolio {
+
+  &__employments {
+    padding: 0;
+    margin-top: 2rem;
+
+    .employment-wrapper {
+      padding: 1rem 0;
+      overflow-x: auto;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+
+      &::-webkit-scrollbar {
+        height: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f9f9f9; 
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: $primary_color; 
+        transition: 300ms;
+        cursor: pointer;
+      }
+    }
+
+    .employment-card {
+      min-width: 420px;
+      margin-right: 1.5rem;
+      padding: 1rem;
+
+      &__company-logo {
+        text-align: left;
+        height: 80px;
+        margin-bottom: 0.5rem;
+      }
+
+      &__job-title {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+
+  }
+
+}
+
+

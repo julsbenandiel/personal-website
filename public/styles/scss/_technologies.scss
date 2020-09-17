@@ -1,0 +1,38 @@
+@import './variables';
+@import './mixin/left-outline';
+
+@mixin tech-card {
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: $shadow;
+}
+
+.portfolio {
+
+  &__technologies {
+    padding: 0;
+    margin-top: 3rem;
+
+    .tech-wrapper {
+      margin-top: 1rem;
+    }
+
+    .card-title {
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .card-tech {
+      position: relative;
+      overflow: hidden;
+
+      @include left-outline();
+      @include tech-card();
+
+    }
+
+  }
+
+}

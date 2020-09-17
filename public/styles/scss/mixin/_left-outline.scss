@@ -1,0 +1,12 @@
+
+@mixin left-outline {
+  .left-outline {
+    width: 6px;
+    background: #3B5384;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+  }
+}

@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../../font/Roboto-Regular.ttf");
+}
+
+.portfolio__works {
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.portfolio__works .projects-wrapper {
+  margin-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  padding-bottom: 2rem;
+}
+
+.portfolio__works .projects-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.portfolio__works .projects-wrapper::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+.portfolio__works .projects-wrapper::-webkit-scrollbar-thumb {
+  background: #2ade5a;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.portfolio__works .project-card {
+  height: 220px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  margin-bottom: 1rem;
+}
+
+.portfolio__works .project-card img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../font/Roboto-Regular.ttf");
+}
+
+.portfolio__technologies {
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.portfolio__technologies .tech-wrapper {
+  margin-top: 1rem;
+}
+
+.portfolio__technologies .card-title {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.portfolio__technologies .card-tech {
+  position: relative;
+  overflow: hidden;
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio__technologies .card-tech .left-outline {
+  width: 6px;
+  background: #3B5384;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../font/Roboto-Regular.ttf");
+}
+
+.portfolio__employments {
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.portfolio__employments .employment-wrapper {
+  padding: 1rem 0;
+  overflow-x: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.portfolio__employments .employment-wrapper::-webkit-scrollbar {
+  height: 5px;
+}
+
+.portfolio__employments .employment-wrapper::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+.portfolio__employments .employment-wrapper::-webkit-scrollbar-thumb {
+  background: #2ade5a;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.portfolio__employments .employment-card {
+  min-width: 420px;
+  margin-right: 1.5rem;
+  padding: 1rem;
+}
+
+.portfolio__employments .employment-card__company-logo {
+  text-align: left;
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio__employments .employment-card__job-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../font/Roboto-Regular.ttf");
+}
+
+.portfolio {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.portfolio__landing-background {
+  background-color: #2ade5a;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.portfolio__landing-background .header-title {
+  position: absolute;
+  bottom: 11rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.portfolio .available-for-work {
+  color: #2ade5a;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.portfolio__details .name {
+  font-size: 45px;
+  color: #3B5384;
+  font-weight: 500;
+}
+
+.portfolio__details .action-buttons {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.portfolio__details .details-label {
+  color: #3B5384;
+  font-weight: 500;
+}
+
+.portfolio__links ul > li, .portfolio__links a {
+  text-decoration: none;
+  color: #3B5384;
+}
+
+.portfolio__landing-page {
+  position: relative;
+  margin-top: -10rem;
+  z-index: 1;
+  border-radius: 5px;
+  background: white;
+  padding: 1.5rem;
+  -webkit-box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+}
+
+.portfolio__landing-page .left-outline {
+  width: 6px;
+  background: #3B5384;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+p, li {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #3B5384;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #3B5384;
+}
+/*# sourceMappingURL=style.css.map */

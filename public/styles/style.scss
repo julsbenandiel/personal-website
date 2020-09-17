@@ -1,0 +1,22 @@
+@import './scss/works';
+@import './scss/technologies';
+@import './scss/variables';
+@import './scss/employment';
+@import './scss/home';
+
+.font-500 {
+  font-weight: 500;
+}
+ 
+p, li {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: $secondary_color;
+}
+
+
+.section-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: $secondary_color;
+}

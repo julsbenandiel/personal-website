@@ -1,0 +1,48 @@
+@import './variables';
+
+.portfolio {
+  &__works {
+    margin-top: 3rem;
+    padding: 0;
+
+    .projects-wrapper {
+      margin-top: 1rem;
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      padding-bottom: 2rem;
+
+      &::-webkit-scrollbar {
+        height: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f9f9f9; 
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: $primary_color; 
+        transition: 300ms;
+        cursor: pointer;
+      }
+    }
+
+    .project-card {
+      height: 220px;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: $shadow;
+      overflow: hidden;
+      transition: 300ms;
+      margin-bottom: 1rem;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+
